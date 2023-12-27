@@ -54,4 +54,4 @@ COPY ./config/vocab.txt /app/config/vocab.txt
 
 EXPOSE 22345/tcp
 
-CMD ["server"]
+CMD ["/app/server"]
